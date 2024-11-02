@@ -1,0 +1,28 @@
+{
+  "name": "hbase-region-inspector",
+  "version": "0.1.0",
+  "authors": [
+    "Nho Luong <luongutnho@hotmail.com>"
+  ],
+  "license": "Apache License 2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.4",
+    "react": "^15.2.1",
+    "underscore": "~1.8.3",
+    "jquery": "~2.1.4",
+    "jquery-ui": "~1.11.4",
+    "husl": "_legacyjs5.0.3",
+    "spin.js": "~2.3.1",
+    "html2canvas": "0.5.0-beta4"
+  },
+  "install": {
+    "path": "resources/public/vendor"
+  }
+}

@@ -1,0 +1,163 @@
+.bottom-buffer {
+  margin-bottom: 20px;
+}
+
+div.progress {
+  margin-bottom: 0px;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+div.progress-bar {
+  box-shadow: none;
+}
+
+.extra-info, .extra-info-bottom, .extra-info-right {
+  cursor: pointer;
+}
+
+.label {
+  margin-right: 5px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.barchart>tbody>tr>td {
+  padding: 0px;
+}
+
+.mono-space {
+  font-family: monospace;
+  margin-right: 10px;
+}
+
+.drop-target {
+  border: 2px solid red;
+}
+
+div.popover {
+  /* Max Width of the popover (depending on the container!) */
+  max-width: 100%;
+}
+
+div.popover table > tbody * {
+  margin-top:     5px;
+  margin-bottom:  5px;
+  padding-top:    2px;
+  padding-bottom: 2px;
+}
+
+div.popover h3, div.popover table {
+  margin-top:     5px;
+  margin-bottom:  5px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+tr.condensed * {
+  height: 8px;
+  font-size: 8px;
+}
+
+tr.condensed div.mono-space {
+  margin-top: -4px;
+}
+
+.label-table {
+  display: inline-block;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+button.btn-xs {
+  font-size: 10px;
+}
+
+td.nowrap {
+  white-space: nowrap;
+}
+
+.metric-value {
+  font-size: 75%;
+  color: grey;
+  font-weight: bold;
+}
+
+div.row.table-regions {
+  margin-top: 20px;
+}
+
+div.row.table-regions table {
+  margin-bottom: 0px;
+}
+
+.progress div.metric-value {
+  margin-left: 3px;
+}
+
+tr.condensed .metric-value {
+  display: none !important;
+}
+
+.popover.fade {
+  -webkit-transition: none;
+  -o-transition:      none;
+  transition:         none;
+}
+
+.nav-tabs > .navbar-right.disabled {
+  margin-right: 0px;
+}
+
+.nav > .navbar-right.disabled > a:hover {
+  cursor: pointer;
+}
+
+.navbar-right.disabled > a.refresh_msg {
+  padding-left:  10px;
+  padding-right: 10px;
+}
+
+.navbar-right.disabled > a.resume-btn {
+  padding-left:  5px;
+  padding-right: 5px;
+}
+
+#table-buttons {
+  overflow:   scroll;
+  max-height: 200px;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+i.text-muted {
+  margin-left: 10px;
+}
+
+body {
+  padding-bottom: 40px;
+}
+
+#app {
+  background-color: white;
+}
+
+#export {
+  cursor: pointer;
+}
